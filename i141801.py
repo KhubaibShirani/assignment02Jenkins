@@ -23,7 +23,7 @@ class AdditionTesting(unittest.TestCase):
     """Unit test that tests add(x, y) defined above using the test data from the test data class."""
 
     def test1(self):
-        self.assertEqual(addition(6,4), 10)
+        self.assertEqual(addition(6,4), 11)
     def test2(self):
         self.assertEqual(subtract(3,3), 0)
 
